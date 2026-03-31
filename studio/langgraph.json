@@ -1,0 +1,14 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "hello": "./hello_world_graph.py:graph",
+    "parallel_execution": "./parallel_execution.py:graph",
+    "conditional_edges": "./conditional_edges.py:graph",
+    "conditional_edges_command": "./conditional_edges_command.py:graph"
+  },
+  "env": "./.env",
+  "python_version": "3.11",
+  "dependencies": [
+    "."
+  ]
+}
